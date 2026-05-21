@@ -1,0 +1,18 @@
+---
+OtherProviders:
+  GeoIPLite:
+    Args:
+      AuthKey: 
+      DBFolder: ~/.msticpy
+    Provider: GeoLiteLookup
+QueryDefinitions: ~
+TIProviders:
+  GreyNoise:
+    Args:
+      AuthKey: YT1igkCRoGORZqqGeUr77S8PGpqLZQUS1wjB8NWAD06mCtr7PHHbj8D6SRAOGVeJ
+    Primary: true
+    Provider: GreyNoise
+  OTX:
+    Args:
+      AuthKey: 9e6244f4b7e1e5a554a4bd440c2469fbedb38cb4f7584beaa4794028df4e5409
+    Primary: true
