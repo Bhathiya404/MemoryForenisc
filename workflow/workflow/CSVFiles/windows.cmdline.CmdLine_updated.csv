@@ -1,0 +1,49 @@
+TreeDepth,PID,Process,Args
+0,4,System,-
+0,404,smss.exe,-
+0,472,csrss.exe,"C:\\Windows\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16"
+0,516,csrss.exe,"C:\\Windows\\system32\\csrss.exe ObjectDirectory=\\Windows SharedSection=1024,12288,512 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ProfileControl=Off MaxRequestThreads=16"
+0,524,wininit.exe,-
+0,552,winlogon.exe,-
+0,604,services.exe,C:\\Windows\\system32\\services.exe
+0,616,lsass.exe,C:\\Windows\\system32\\lsass.exe
+0,624,lsm.exe,C:\\Windows\\system32\\lsm.exe
+0,788,svchost.exe,C:\\Windows\\system32\\svchost.exe -k DcomLaunch
+0,848,svchost.exe,C:\\Windows\\system32\\svchost.exe -k rpcss
+0,884,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalServiceNetworkRestricted
+0,976,svchost.exe,C:\\Windows\\system32\\svchost.exe -k GPSvcGroup
+0,1000,svchost.exe,C:\\Windows\\system32\\svchost.exe -k netsvcs
+0,1056,SLsvc.exe,C:\\Windows\\system32\\SLsvc.exe
+0,1088,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalService
+0,1160,svchost.exe,C:\\Windows\\System32\\svchost.exe -k LocalSystemNetworkRestricted
+0,1188,svchost.exe,C:\\Windows\\system32\\svchost.exe -k NetworkService
+0,1308,svchost.exe,C:\\Windows\\system32\\svchost.exe -k LocalServiceNoNetwork
+0,1424,spoolsv.exe,C:\\Windows\\System32\\spoolsv.exe
+0,1460,armsvc.exe,-
+0,1480,dns.exe,C:\\Windows\\system32\\dns.exe
+0,1508,ftpbasicsvr.exe,-
+0,1576,svchost.exe,C:\\Windows\\system32\\svchost.exe -k NetworkServiceNetworkRestricted
+0,1604,svchost.exe,-
+0,1620,snmp.exe,-
+0,1640,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"""
+0,1696,svchost.exe,C:\\Windows\\System32\\svchost.exe -k WerSvcGroup
+0,832,TPAutoConnSvc.e,"""C:\\Program Files\\VMware\\VMware Tools\\TPAutoConnSvc.exe"""
+0,1924,dllhost.exe,C:\\Windows\\system32\\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+0,1572,msdtc.exe,C:\\Windows\\System32\\msdtc.exe
+0,2096,taskeng.exe,taskeng.exe {A062047F-D0C4-42E8-A044-B5A00D41F4D0}
+0,2352,taskeng.exe,taskeng.exe {E526C5AF-128E-4CA7-AC5F-D6819096490C}
+0,2368,userinit.exe,-
+0,2392,dwm.exe,"""C:\\Windows\\system32\\Dwm.exe"""
+0,2480,TPAutoConnect.e,TPAutoConnect.exe -q -i vmware -a COM1 -F 30
+0,2496,explorer.exe,C:\\Windows\\Explorer.EXE
+0,2580,vmtoolsd.exe,"""C:\\Program Files\\VMware\\VMware Tools\\vmtoolsd.exe"" -n vmusr"
+0,2592,AdobeARM.exe,-
+0,2616,reader_sl.exe,-
+0,2720,Oobe.exe,-
+0,3224,svchost.exe,-
+0,3336,iashost.exe,C:\\Windows\\system32\\iashost.exe {48DA6741-1BF0-4A44-8325-293086C79077} -Embedding
+0,3680,wuauclt.exe,"""C:\\Windows\\system32\\wuauclt.exe"""
+0,3920,notepad.exe,"""C:\\Windows\\System32\\notepad.exe"" "
+0,1800,FTK Imager.exe,"""C:\\Users\\Administrator\\Downloads\\Imager_Lite_3.1.1\\FTK Imager.exe"" "
+0,1888,iexplore.exe,"""C:\\Program Files\\Internet Explorer\\iexplore.exe"" "
+0,2708,notepad.exe,"""C:\\Windows\\System32\\notepad.exe"" "

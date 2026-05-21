@@ -1,0 +1,226 @@
+TreeDepth,PID,Process,Start VPN,End VPN,Tag,Protection,CommitCharge,PrivateMemory,File output,Notes,Hexdump,Disasm
+0,2496,explorer.exe,0x1790000,0x1791fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,,"
+b0 00 eb 70 b0 01 eb 6c b0 02 eb 68 b0 03 eb 64 ...p...l...h...d
+b0 04 eb 60 b0 05 eb 5c b0 06 eb 58 b0 07 eb 54 ...`...\\...X...T
+b0 08 eb 50 b0 09 eb 4c b0 0a eb 48 b0 0b eb 44 ...P...L...H...D
+b0 0c eb 40 b0 0d eb 3c b0 0e eb 38 b0 0f eb 34 ...@...<...8...4","
+0x1790000:	mov	al, 0
+0x1790002:	jmp	0x1790074
+0x1790004:	mov	al, 1
+0x1790006:	jmp	0x1790074
+0x1790008:	mov	al, 2
+0x179000a:	jmp	0x1790074
+0x179000c:	mov	al, 3
+0x179000e:	jmp	0x1790074
+0x1790010:	mov	al, 4
+0x1790012:	jmp	0x1790074
+0x1790014:	mov	al, 5
+0x1790016:	jmp	0x1790074
+0x1790018:	mov	al, 6
+0x179001a:	jmp	0x1790074
+0x179001c:	mov	al, 7
+0x179001e:	jmp	0x1790074
+0x1790020:	mov	al, 8
+0x1790022:	jmp	0x1790074
+0x1790024:	mov	al, 9
+0x1790026:	jmp	0x1790074
+0x1790028:	mov	al, 0xa
+0x179002a:	jmp	0x1790074
+0x179002c:	mov	al, 0xb
+0x179002e:	jmp	0x1790074
+0x1790030:	mov	al, 0xc
+0x1790032:	jmp	0x1790074
+0x1790034:	mov	al, 0xd
+0x1790036:	jmp	0x1790074
+0x1790038:	mov	al, 0xe
+0x179003a:	jmp	0x1790074
+0x179003c:	mov	al, 0xf
+0x179003e:	jmp	0x1790074"
+0,2496,explorer.exe,0x3190000,0x3190fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 19 03 00 00 00 00 00 00 00 00 00 00 00 00 ................
+10 00 19 03 00 00 00 00 00 00 00 00 00 00 00 00 ................
+20 00 19 03 00 00 00 00 00 00 00 00 00 00 00 00  ...............","
+0x3190000:	add	byte ptr [eax], al
+0x3190002:	add	byte ptr [eax], al
+0x3190004:	add	byte ptr [eax], al
+0x3190006:	add	byte ptr [eax], al
+0x3190008:	add	byte ptr [eax], al
+0x319000a:	add	byte ptr [eax], al
+0x319000c:	add	byte ptr [eax], al
+0x319000e:	add	byte ptr [eax], al
+0x3190010:	add	byte ptr [eax], al
+0x3190012:	sbb	dword ptr [ebx], eax
+0x3190014:	add	byte ptr [eax], al
+0x3190016:	add	byte ptr [eax], al
+0x3190018:	add	byte ptr [eax], al
+0x319001a:	add	byte ptr [eax], al
+0x319001c:	add	byte ptr [eax], al
+0x319001e:	add	byte ptr [eax], al
+0x3190020:	adc	byte ptr [eax], al
+0x3190022:	sbb	dword ptr [ebx], eax
+0x3190024:	add	byte ptr [eax], al
+0x3190026:	add	byte ptr [eax], al
+0x3190028:	add	byte ptr [eax], al
+0x319002a:	add	byte ptr [eax], al
+0x319002c:	add	byte ptr [eax], al
+0x319002e:	add	byte ptr [eax], al
+0x3190030:	and	byte ptr [eax], al
+0x3190032:	sbb	dword ptr [ebx], eax
+0x3190034:	add	byte ptr [eax], al
+0x3190036:	add	byte ptr [eax], al
+0x3190038:	add	byte ptr [eax], al
+0x319003a:	add	byte ptr [eax], al
+0x319003c:	add	byte ptr [eax], al
+0x319003e:	add	byte ptr [eax], al"
+0,2496,explorer.exe,0x5d70000,0x5daffff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,,"
+60 5a d3 ad 88 3b 00 01 ee ff ee ff 00 00 00 00 `Z...;..........
+a8 00 d7 05 a8 00 d7 05 00 00 d7 05 00 00 d7 05 ................
+40 00 00 00 80 05 d7 05 00 00 db 05 3f 00 00 00 @...........?...
+01 00 00 00 00 00 00 00 f0 0f d7 05 f0 0f d7 05 ................","
+0x5d70000:	pushal	
+0x5d70001:	pop	edx
+0x5d70002:	shr	dword ptr [ebp + 0x1003b88], cl
+0x5d70008:	out	dx, al"
+0,3920,notepad.exe,0x840000,0x840fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 84 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+10 00 84 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+20 00 84 00 00 00 00 00 00 00 00 00 00 00 00 00  ...............","
+0x840000:	add	byte ptr [eax], al
+0x840002:	add	byte ptr [eax], al
+0x840004:	add	byte ptr [eax], al
+0x840006:	add	byte ptr [eax], al
+0x840008:	add	byte ptr [eax], al
+0x84000a:	add	byte ptr [eax], al
+0x84000c:	add	byte ptr [eax], al
+0x84000e:	add	byte ptr [eax], al
+0x840010:	add	byte ptr [eax], al
+0x840012:	test	byte ptr [eax], al
+0x840014:	add	byte ptr [eax], al
+0x840016:	add	byte ptr [eax], al
+0x840018:	add	byte ptr [eax], al
+0x84001a:	add	byte ptr [eax], al
+0x84001c:	add	byte ptr [eax], al
+0x84001e:	add	byte ptr [eax], al
+0x840020:	adc	byte ptr [eax], al
+0x840022:	test	byte ptr [eax], al
+0x840024:	add	byte ptr [eax], al
+0x840026:	add	byte ptr [eax], al
+0x840028:	add	byte ptr [eax], al
+0x84002a:	add	byte ptr [eax], al
+0x84002c:	add	byte ptr [eax], al
+0x84002e:	add	byte ptr [eax], al
+0x840030:	and	byte ptr [eax], al
+0x840032:	test	byte ptr [eax], al
+0x840034:	add	byte ptr [eax], al
+0x840036:	add	byte ptr [eax], al
+0x840038:	add	byte ptr [eax], al
+0x84003a:	add	byte ptr [eax], al
+0x84003c:	add	byte ptr [eax], al
+0x84003e:	add	byte ptr [eax], al"
+0,1888,iexplore.exe,0xd60000,0xd61fff,VadS,PAGE_EXECUTE_READWRITE,2,1,Disabled,,"
+b0 00 eb 70 b0 01 eb 6c b0 02 eb 68 b0 03 eb 64 ...p...l...h...d
+b0 04 eb 60 b0 05 eb 5c b0 06 eb 58 b0 07 eb 54 ...`...\\...X...T
+b0 08 eb 50 b0 09 eb 4c b0 0a eb 48 b0 0b eb 44 ...P...L...H...D
+b0 0c eb 40 b0 0d eb 3c b0 0e eb 38 b0 0f eb 34 ...@...<...8...4","
+0xd60000:	mov	al, 0
+0xd60002:	jmp	0xd60074
+0xd60004:	mov	al, 1
+0xd60006:	jmp	0xd60074
+0xd60008:	mov	al, 2
+0xd6000a:	jmp	0xd60074
+0xd6000c:	mov	al, 3
+0xd6000e:	jmp	0xd60074
+0xd60010:	mov	al, 4
+0xd60012:	jmp	0xd60074
+0xd60014:	mov	al, 5
+0xd60016:	jmp	0xd60074
+0xd60018:	mov	al, 6
+0xd6001a:	jmp	0xd60074
+0xd6001c:	mov	al, 7
+0xd6001e:	jmp	0xd60074
+0xd60020:	mov	al, 8
+0xd60022:	jmp	0xd60074
+0xd60024:	mov	al, 9
+0xd60026:	jmp	0xd60074
+0xd60028:	mov	al, 0xa
+0xd6002a:	jmp	0xd60074
+0xd6002c:	mov	al, 0xb
+0xd6002e:	jmp	0xd60074
+0xd60030:	mov	al, 0xc
+0xd60032:	jmp	0xd60074
+0xd60034:	mov	al, 0xd
+0xd60036:	jmp	0xd60074
+0xd60038:	mov	al, 0xe
+0xd6003a:	jmp	0xd60074
+0xd6003c:	mov	al, 0xf
+0xd6003e:	jmp	0xd60074"
+0,1888,iexplore.exe,0x39a0000,0x39a0fff,VadS,PAGE_EXECUTE_READWRITE,1,1,Disabled,,"
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 9a 03 00 00 00 00 00 00 00 00 00 00 00 00 ................
+10 00 9a 03 00 00 00 00 00 00 00 00 00 00 00 00 ................
+20 00 9a 03 00 00 00 00 00 00 00 00 00 00 00 00  ...............","
+0x39a0000:	add	byte ptr [eax], al
+0x39a0002:	add	byte ptr [eax], al
+0x39a0004:	add	byte ptr [eax], al
+0x39a0006:	add	byte ptr [eax], al
+0x39a0008:	add	byte ptr [eax], al
+0x39a000a:	add	byte ptr [eax], al
+0x39a000c:	add	byte ptr [eax], al
+0x39a000e:	add	byte ptr [eax], al
+0x39a0010:	add	byte ptr [eax], al
+0x39a0012:	lcall	0, 3
+0x39a0019:	add	byte ptr [eax], al
+0x39a001b:	add	byte ptr [eax], al
+0x39a001d:	add	byte ptr [eax], al
+0x39a001f:	add	byte ptr [eax], dl
+0x39a0021:	add	byte ptr [edx + 3], bl
+0x39a0027:	add	byte ptr [eax], al
+0x39a0029:	add	byte ptr [eax], al
+0x39a002b:	add	byte ptr [eax], al
+0x39a002d:	add	byte ptr [eax], al
+0x39a002f:	add	byte ptr [eax], ah
+0x39a0031:	add	byte ptr [edx + 3], bl
+0x39a0037:	add	byte ptr [eax], al
+0x39a0039:	add	byte ptr [eax], al
+0x39a003b:	add	byte ptr [eax], al
+0x39a003d:	add	byte ptr [eax], al"
+0,1888,iexplore.exe,0x6fff0000,0x6fffffff,VadS,PAGE_EXECUTE_READWRITE,16,1,Disabled,,"
+64 74 72 52 00 00 00 00 60 01 ff 6f 00 00 00 00 dtrR....`..o....
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ................","
+0x6fff0000:	je	0x6fff0075
+0x6fff0003:	push	edx
+0x6fff0004:	add	byte ptr [eax], al
+0x6fff0006:	add	byte ptr [eax], al
+0x6fff0008:	pushal	
+0x6fff0009:	add	edi, edi
+0x6fff000b:	outsd	dx, dword ptr [esi]
+0x6fff000c:	add	byte ptr [eax], al
+0x6fff000e:	add	byte ptr [eax], al
+0x6fff0010:	add	byte ptr [eax], al
+0x6fff0012:	add	byte ptr [eax], al
+0x6fff0014:	add	byte ptr [eax], al
+0x6fff0016:	add	byte ptr [eax], al
+0x6fff0018:	add	byte ptr [eax], al
+0x6fff001a:	add	byte ptr [eax], al
+0x6fff001c:	add	byte ptr [eax], al
+0x6fff001e:	add	byte ptr [eax], al
+0x6fff0020:	add	byte ptr [eax], al
+0x6fff0022:	add	byte ptr [eax], al
+0x6fff0024:	add	byte ptr [eax], al
+0x6fff0026:	add	byte ptr [eax], al
+0x6fff0028:	add	byte ptr [eax], al
+0x6fff002a:	add	byte ptr [eax], al
+0x6fff002c:	add	byte ptr [eax], al
+0x6fff002e:	add	byte ptr [eax], al
+0x6fff0030:	add	byte ptr [eax], al
+0x6fff0032:	add	byte ptr [eax], al
+0x6fff0034:	add	byte ptr [eax], al
+0x6fff0036:	add	byte ptr [eax], al
+0x6fff0038:	add	byte ptr [eax], al
+0x6fff003a:	add	byte ptr [eax], al
+0x6fff003c:	add	byte ptr [eax], al
+0x6fff003e:	add	byte ptr [eax], al"
